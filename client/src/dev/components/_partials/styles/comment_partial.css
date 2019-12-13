@@ -1,0 +1,88 @@
+
+.comment-section {
+    border: 2px solid rgb(209, 197, 197);
+    margin-top: 20vmin;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 10vmin;
+}
+
+.comment-form {
+    text-align: left;
+}
+
+.comment {
+    text-align: left;
+    margin: 1vmin 3vmin;
+}
+
+select {
+    width: 33vmin;
+    height: 10vmin;
+    outline: none;
+    font-size: 22px;
+    margin-left: 5vmin;
+    margin-bottom: 5vmin;
+    padding: 1vmin 3vmin;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 0 3vmin 0 3vmin ;
+}
+
+textarea {
+    width: 68vmin;
+    height: 18vmin;
+    margin-left: 5vmin;
+    margin-bottom: 2vmin;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2vmin;
+    border-radius: 0 5vmin 0 5vmin ;
+    outline: none;
+}
+
+button {
+    margin-left: 8vmin;
+    outline: none;
+    border-radius: 0 15vmin 0 15vmin;
+    border: none;
+    background: rgb(11, 129, 60);
+    color: #fff9f9;
+    font-size: 0.9em;
+    text-decoration: none;
+    padding: 2vmin 6vmin;
+    display: inline-block;
+    text-align: center ;
+    margin-bottom: 6vmin;
+    transition: 0.3s ease-out;
+}
+
+button:hover {
+    background: rgb(6, 180, 73);
+    cursor: pointer;
+}
+
+button:active {
+    transform: rotateZ(720deg)
+}
+
+.up {
+    margin-left: 40vmin;
+    outline: none;
+    border-radius: 30vmin 0 30vmin 0;
+    border: none;
+    background: rgb(11, 129, 60);
+    color: #fff9f9;
+    font-size: 0.9em;
+    text-decoration: none;
+    padding: 2vmin 6vmin;
+    display: inline-block;
+    text-align: center ;
+    margin-bottom: 6vmin;
+}
+
+.up:hover {
+    background: rgb(6, 180, 73);
+    cursor: pointer;
+}
+
