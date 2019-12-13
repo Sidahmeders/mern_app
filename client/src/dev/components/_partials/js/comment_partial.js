@@ -56,7 +56,7 @@ function CommentSection() {
  useEffect(() => {
    const fetchData = async () => {
      try {
-      const comment = await axios.get('http://localhost:5000/comments');
+      const comment = await axios.get('https://sidozoldik.herokuapp.com/comments');
       setComments(comment.data)
      } catch(err) {
        console.log(err)
