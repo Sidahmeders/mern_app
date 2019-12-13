@@ -56,7 +56,7 @@ function CommentSection() {
  useEffect(() => {
    const fetchData = async () => {
      try {
-      const comment = await axios.get('https://sidozoldik.herokuapp.com/comments');
+      const comment = await axios.get('/comments');
       setComments(comment.data)
      } catch(err) {
        console.log(err)
@@ -66,7 +66,7 @@ function CommentSection() {
  })
 
   const pushComment = value => {
-    axios.post('http://localhost:5000/comments/add', value)
+    axios.post('/comments/add', value)
     .then(res => console.log(res))
   }
 
